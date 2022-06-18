@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Podkova:wght@300;400;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
 
@@ -36,6 +37,9 @@
 
 .font-lexend {
 	font-family: 'Lexend', serif;
+}
+.font-podkova {
+	font-family: 'Podkova', serif;
 }
 
 .font-poppins {
