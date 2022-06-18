@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+:root {
+	--horizon-blue: #38a0bd;
+	--horizon-darkgreen: #184e10;
+	--horizon-green: #76a765;
+	--horizon-orange: #ff9533;
+	--horizon-mocha: #a88862;
+	--horizon-pearl: #efe9e1;
+}
+
+.bg-horizon-blue {
+	background-color: var(--horizon-blue);
+}
+
+.bg-horizon-orange {
+	background-color: var(--horizon-orange);
+}
+
+.bg-horizon-mocha {
+	background-color: var(--horizon-mocha);
+}
+
+.bg-horizon-pearl {
+	background-color: var(--horizon-pearl);
+}
+
+.text-horizon-green {
+	color: var(--horizon-green);
+}
+
+.brand-logo {
+	height: 4em;
+}
+
+.font-lexend {
+	font-family: 'Lexend', serif;
+}
+
+.font-poppins {
+	font-family: 'Poppins', sans-serif;
+}
+
+.hero-image {
+	max-height: 70vh;
+	object-fit: cover;
+	object-position: center;
+}
+
+.horizon-form {
+	border: 10px solid var(--horizon-darkgreen);
+}
+
+.horizon-form:active,
+.horizon-form:focus {
+	border: 10px solid var(--horizon-darkgreen);
+}
+
+.horizon-submit {
+	border: 10px solid var(--horizon-orange);
+}
+
+.title {
+	position: relative;
+}
+
+.title::before {
+	position: absolute;
+	content: '';
+	width: 8em;
+	height: 2px;
+	left: 50%;
+	bottom: 0;
+
+	margin-bottom: -0.2em;
+	transform: translateX(-50%);
+	background-color: rgba(0, 0, 0, 0.3);
+}
+
+#spotlight-container img {
+	max-height: 30vh;
+	aspect-ratio: 1/1;
+	object-fit: cover;
+	object-position: bottom;
+}
+
+#blog-container img {
+	max-height: 30vh;
+	aspect-ratio: 1/1;
+	object-fit: cover;
+	object-position: center;
+}
+
+.divider {
+	width: 70%;
+	height: 1px;
+	background-color: var(--horizon-orange);
+}
+
+#social-media {
+	top: 50%;
+	right: 0;
+	transform: translateY(-50%);
+}
